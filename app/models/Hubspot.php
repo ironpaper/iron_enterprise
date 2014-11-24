@@ -5,16 +5,30 @@
  * or posted. 
  */
 class Hubspot {
-	
-	protected $api_key 		= "demo";
-	protected $oAuth_key	= "demooooo-oooo-oooo-oooo-oooooooooooo";
 
-
-	public static function getLeads(){
-		$contacts = new HubSpot_Contacts("demo");
-		$contacts_batch1 = $contacts->get_all_contacts(array('count' => '100'));
+	// Get leads
+	// -------------------------------------------------------------------------	
+	public static function getLeads($key = "demo", $id = 261){
+		$contacts 			= new HubSpot_Lists($key);
+		$contacts_batch1 	= $contacts->get_contacts_in_list(array('count' => '100'), $id);
 		
-		return json_encode($contacts_batch1->contacts);		
+		return $contacts_batch1->contacts;
+	}
+	// Get all contacts
+	// -------------------------------------------------------------------------
+	public static function getAllContact($key = "demo"){
+		$contacts 			= new HubSpot_Contacts($key);
+		$contacts_batch1 	= $contacts->get_all_contacts(array('count' => '100'));
+		
+		return $contacts_batch1->contacts;
+	}
+	// Get Contact list
+	// -------------------------------------------------------------------------
+	public static function getContactList($key = "demo", $id = 1){
+		$contacts 	= new HubSpot_Lists($key);
+		$result  	= $contacts->get_contacts_in_list(array('count' => '100'),$id);
+
+		return $result->contacts;
 	}
 
 	//public static getTraffic(){}
