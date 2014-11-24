@@ -12,3 +12,18 @@ Route::get('/', function() { return View::make('index'); });
 Route::get('/leads', function() {
 	return Hubspot::getLeads(CALERO_KEY, 30);
 });
+
+// -------- TRAFFIC
+Route::get('/traffic', function() {
+	return "Return the traffic number";
+});
+
+// -------- MQL
+Route::get('/mql', function() {
+	return "Return the MQL number";
+});
+
+// -------- SQL
+Route::get('/sql', function() {
+	return "Return the SQL number";
+});
