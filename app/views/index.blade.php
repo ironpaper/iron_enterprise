@@ -12,33 +12,33 @@
 		
 		<div class="col-xs-3">
 			<div class="panel panel-default">
-			  <div class="panel-heading">Traffic</div>
+			  <div class="panel-heading"><center>Traffic</center></div>
 			  <div class="panel-body">
-			    Panel content
+			    <center><h2>876</h2></center>
 			  </div>
 			</div>					
 		</div>
 		<div class="col-xs-3">
 			<div class="panel panel-default">
-			  <div class="panel-heading">Leads</div>
+			  <div class="panel-heading"><center>Leads</center></div>
 			  <div class="panel-body">
-			    Panel content
+			    <center><h2>123</h2></center>
 			  </div>
 			</div>					
 		</div>
 		<div class="col-xs-3">
 			<div class="panel panel-default">
-			  <div class="panel-heading">MQL</div>
+			  <div class="panel-heading"><center>MQL</center></div>
 			  <div class="panel-body">
-			    Panel content
+			    <center><h2>12</h2></center>
 			  </div>
 			</div>					
 		</div>
 		<div class="col-xs-3">
 			<div class="panel panel-default">
-			  <div class="panel-heading">SQL</div>
+			  <div class="panel-heading"><center>SQL</center></div>
 			  <div class="panel-body">
-			    Panel content
+			    <center><h2>23</h2></center>
 			  </div>
 			</div>					
 		</div>	
