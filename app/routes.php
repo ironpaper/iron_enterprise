@@ -8,7 +8,7 @@ define('CALERO_KEY', '1584a5e8-96e8-4892-b091-6b8e20c5c946');
 Route::get('/', function() { return View::make('index'); });
 
 
-// -------- Get leads
+// -------- LEADS
 Route::get('/leads', function() {
 	return Hubspot::getLeads(CALERO_KEY, 30);
 });
