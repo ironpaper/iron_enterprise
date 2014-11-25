@@ -6,38 +6,12 @@
  */
 class Hubspot {
 
-	// Get leads
+	// Get a Hubspot List
 	// -------------------------------------------------------------------------	
-	public static function getLeads($key = "demo", $id){
-		$contacts 			= new HubSpot_Lists($key);
-		$contacts_batch1 	= $contacts->get_contacts_in_list(array('count' => '100'), $id);
+	public static function getList($key = "demo", $id){
+		$list 				= new HubSpot_Lists($key);
+		$results 			= $list->get_contacts_in_list(array('count' => '100'), $id);
 		
-		return $contacts_batch1->contacts;
+		return $results->contacts;
 	}
-	// Get all contacts
-	// -------------------------------------------------------------------------
-	public static function getAllContact($key = "demo"){
-		$contacts 			= new HubSpot_Contacts($key);
-		$contacts_batch1 	= $contacts->get_all_contacts(array('count' => '100'));
-		
-		return $contacts_batch1->contacts;
-	}
-	// Get Contact list
-	// -------------------------------------------------------------------------
-	public static function getContactList($key = "demo", $id){
-		$contacts 	= new HubSpot_Lists($key);
-		$result  	= $contacts->get_contacts_in_list(array('count' => '100'),$id);
-
-		return $result->contacts;
-	}
-	// Get Contact list
-	// -------------------------------------------------------------------------
-	public static function getTraffic(){}
-	// Get MQL
-	// -------------------------------------------------------------------------
-	public static function mql(){}
-	// Get SQL
-	// -------------------------------------------------------------------------
-	public static function sql(){}
-
 }

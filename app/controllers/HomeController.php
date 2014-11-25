@@ -2,22 +2,17 @@
 
 class HomeController extends BaseController {
 
-	/*
-	|--------------------------------------------------------------------------
-	| Default Home Controller
-	|--------------------------------------------------------------------------
-	|
-	| You may wish to use controllers instead of, or in addition to, Closure
-	| based routes. That's great! Here is an example controller method to
-	| get you started. To route to this controller, just add the route:
-	|
-	|	Route::get('/', 'HomeController@showWelcome');
-	|
-	*/
+	/**
+	 * Display the home index page with various 
+	 * variables
+	 * 
+	 * @return [view] [index.blade.php]
+	 */
+	public function index(){
 
-	public function showWelcome()
-	{
-		return View::make('hello');
+		$leads 	= 	count(Hubspot::getList(CALERO_KEY, 30));
+				
+		return View::make('index', compact('leads') ); 		
 	}
 
 }
