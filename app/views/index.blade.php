@@ -22,7 +22,7 @@
 			<div class="panel panel-default">
 			  <div class="panel-heading"><center>Leads</center></div>
 			  <div class="panel-body">
-			    <center><h2>123</h2></center>
+			    <center><h2>{{ $leads }}</h2></center>
 			  </div>
 			</div>					
 		</div>
