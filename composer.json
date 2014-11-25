@@ -16,6 +16,9 @@
 			"app/database/seeds",
 			"app/tests/TestCase.php",
 			"app/hubspot"
+		],
+		"files": [
+		"app/helpers.php"
 		]
 	},
 	"scripts": {
