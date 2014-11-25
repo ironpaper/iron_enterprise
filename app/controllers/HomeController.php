@@ -14,7 +14,10 @@ class HomeController extends BaseController {
 		$mql 	=	count(Hubspot::getList(CALERO_KEY, 66));
 		$sql 	=	count(Hubspot::getList(CALERO_KEY, 67));
 
-		return View::make('index', compact('leads', 'mql', 'sql') ); 		
+		$lTom_rate	=	convert_rate($mql,$leads);
+		$mTos_rate	=	convert_rate($sql, $mql);
+
+		return View::make('index', compact('leads', 'mql', 'sql', 'lTom_rate', 'mTos_rate') ); 		
 	}
 
 }

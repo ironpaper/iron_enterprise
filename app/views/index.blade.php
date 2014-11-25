@@ -29,7 +29,7 @@
 		</div>
 
 		<div class="col-xs-1 percentage-column">
-			<center><p class="percentage">2%</p></center>
+			<center><p class="percentage">{{ $lTom_rate }}</p></center>
 		</div>
 
 		<div class="col-xs-12 col-md-4">
@@ -43,7 +43,7 @@
 		</div>
 
 		<div class="col-xs-1 percentage-column">
-			<center><p class="percentage">2%</p></center>
+			<center><p class="percentage">{{ $mTos_rate }}</p></center>
 		</div>		
 
 		<div class="col-xs-12 col-md-3">
