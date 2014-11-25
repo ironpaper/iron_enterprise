@@ -12,33 +12,43 @@
 		
 		<div class="col-xs-12">
 			<div class="panel panel-default">
-			  <div class="panel-heading"><center>Traffic</center></div>
+			  <div class="panel-heading"><center><h2>Traffic</h2></center></div>
 			  <div class="panel-body">
 			    <center><h2>876</h2></center>
 			  </div>
 			</div>					
 		</div>
-		<div class="col-xs-4">
+		<div class="col-xs-12 col-md-3">
 			<div class="panel panel-default">
-			  <div class="panel-heading"><center>Leads</center></div>
+			  <div class="panel-heading"><center><h4>Leads</h4></center></div>
 			  <div class="panel-body">
 			    <center><h2>{{ $leads }}</h2>
 			    <p class="dimmned">A lead is a contact that expresses interest in your brand or off er andprovides enough basic informationto begin a validation process</p>
 			  </div></center>
 			</div>					
 		</div>
-		<div class="col-xs-4">
+
+		<div class="col-xs-1 percentage-column">
+			<center><p class="percentage">2%</p></center>
+		</div>
+
+		<div class="col-xs-12 col-md-4">
 			<div class="panel panel-default">
-			  <div class="panel-heading"><center>MQL</center></div>
+			  <div class="panel-heading"><center><h4>MQL</h4></center></div>
 			  <div class="panel-body">
 			    <center><h2>{{ $mql }}</h2>
-			    <p class="dimmned">An MQL is a transition staterepresenting either increasedvalidation or a deeper expressionof interest.An MQL is a lead thatprovides some crucial validationallowing for a future salesopportunity.</p>
+			    <p class="dimmned">An MQL is a transition stater epresenting either increased validation or a deeper expression of interest. An MQL is a lead that provides some crucial validation allowing for a future salesoppor tunity.</p>
 			  </div></center>
 			</div>					
 		</div>
-		<div class="col-xs-4">
+
+		<div class="col-xs-1 percentage-column">
+			<center><p class="percentage">2%</p></center>
+		</div>		
+
+		<div class="col-xs-12 col-md-3">
 			<div class="panel panel-default">
-			  <div class="panel-heading"><center>SQL</center></div>
+			  <div class="panel-heading"><center><h4>SQL</h4></center></div>
 			  <div class="panel-body">
 			    <center><h2>{{ $sql }}</h2>
 			    <p class="dimmned">An SQL is a validated lead that has also expressed interest in a proposal or deal exploration.</p></center>

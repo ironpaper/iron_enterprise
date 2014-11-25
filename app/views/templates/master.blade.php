@@ -4,19 +4,17 @@
 	<title>Enterpise</title>
 	<link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/main.css') }}">
-
-
 </head>
 <body>
 
 <div class="container app-container">
 	<div class="row">
-		<div class="col-xs-12"><h1>Starship Enterrpise</h1></div>
+		<div class="col-xs-12"><h1>Starship Enterprise</h1></div>
 		<br><br>
 	</div>
 	@section('content')
 
-    @show	
+  @show	
 </div>
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>

@@ -1,23 +1,30 @@
 /* COLORS */
-
-
 /* TYPO */
+/* HELPERS */
+.dimmned {
+  opacity: .5; }
 
+.no-p-r {
+  padding-right: 0; }
 
-/* SHAPES */
+.no-p-l {
+  padding-right: 0; }
 
+.no-p-lr {
+  padding-left: 0;
+  padding-right: 0; }
 
 /* GLOBALS */
-.app-container{margin-top: 50px}
-
+.app-container {
+  margin-top: 50px; }
 
 /* HEADER */
-
-
 /* CONTENT */
+.percentage-column {
+  min-height: 250px; }
 
+.percentage {
+  margin-top: 170%; }
 
 /* SIDEBARS */
-
-
 /* FOOTER */

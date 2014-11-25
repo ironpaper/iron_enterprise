@@ -27,3 +27,8 @@ Route::get('/mql', function() {
 Route::get('/sql', function() {
 	return "Return the SQL number";
 });
+
+//---------- TEST ROUTES
+Route::get('/test', function(){
+	return convert_rate(100,1700);
+});
