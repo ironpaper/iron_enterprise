@@ -15,6 +15,10 @@
   padding-right: 0; }
 
 /* GLOBALS */
+.badge-special {
+  background-color: #242b39;
+  color: #c3cee4; }
+
 .app-container {
   margin-top: 50px; }
 
@@ -23,8 +27,10 @@
 .percentage-column {
   min-height: 250px; }
 
-.percentage {
-  margin-top: 170%; }
+.percentage-column .badge {
+  margin-top: 170%;
+  font-weight: 400;
+  font-size: 1.2em; }
 
 /* SIDEBARS */
 /* FOOTER */

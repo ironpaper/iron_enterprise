@@ -1,4 +1,7 @@
 /* COLORS */
+$color-on-dark: #c3cee4;
+$color-dark-special: #242b39;
+$color-special: #89fbff;
 
 
 /* TYPO */
@@ -12,8 +15,10 @@
 .no-p-lr{padding-left: 0; padding-right: 0;}
 
 /* GLOBALS */
+.badge-special{background-color: $color-dark-special; color: $color-on-dark}
 
 .app-container{margin-top: 50px}
+
 
 
 /* HEADER */
@@ -21,7 +26,7 @@
 
 /* CONTENT */
 .percentage-column{ min-height: 250px;}
-.percentage{margin-top: 170%;}
+.percentage-column .badge{margin-top: 170%; font-weight: 400; font-size: 1.2em;}
 
 /* SIDEBARS */
 
