@@ -30,7 +30,7 @@
 			<div class="panel panel-default">
 			  <div class="panel-heading"><center>MQL</center></div>
 			  <div class="panel-body">
-			    <center><h2>12</h2></center>
+			    <center><h2>{{ $mql }}</h2></center>
 			  </div>
 			</div>					
 		</div>
@@ -38,7 +38,7 @@
 			<div class="panel panel-default">
 			  <div class="panel-heading"><center>SQL</center></div>
 			  <div class="panel-body">
-			    <center><h2>23</h2></center>
+			    <center><h2>{{ $sql }}</h2></center>
 			  </div>
 			</div>					
 		</div>	

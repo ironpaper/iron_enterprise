@@ -11,8 +11,10 @@ class HomeController extends BaseController {
 	public function index(){
 
 		$leads 	= 	count(Hubspot::getList(CALERO_KEY, 30));
-				
-		return View::make('index', compact('leads') ); 		
+		$mql 	=	count(Hubspot::getList(CALERO_KEY, 66));
+		$sql 	=	count(Hubspot::getList(CALERO_KEY, 67));
+
+		return View::make('index', compact('leads', 'mql', 'sql') ); 		
 	}
 
 }
