@@ -3,10 +3,8 @@
 <head>
 	<title>Enterpise</title>
 	<link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/main.css') }}">
 
-	<style type="text/css">
-		.app-container{margin-top: 50px}
-	</style>
 
 </head>
 <body>
