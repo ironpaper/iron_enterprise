@@ -14,7 +14,7 @@
 			<div class="panel panel-default">
 			  <div class="panel-heading"><center><h2>Traffic</h2></center></div>
 			  <div class="panel-body">
-			    <center><h2>876</h2></center>
+			    <center><h2>{{ $traffic }}</h2></center>
 			  </div>
 			</div>					
 		</div>

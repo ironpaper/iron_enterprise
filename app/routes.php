@@ -15,7 +15,7 @@ Route::get('/leads', function() {
 
 // -------- TRAFFIC
 Route::get('/traffic', function() {
-	return "Return the traffic number";
+	return Hubspot::getProspects(CALERO_KEY);
 });
 
 // -------- MQL
