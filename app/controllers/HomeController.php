@@ -18,7 +18,7 @@ class HomeController extends BaseController {
 		$lTom_rate	=	convert_rate($mql,$leads);
 		$mTos_rate	=	convert_rate($sql, $mql);
 
-		return View::make('index', compact('traffic', 'leads', 'mql', 'sql', 'lTom_rate', 'mTos_rate') ); 		
+		return View::make('index', compact('traffic', 'leads', 'mql', 'sql', 'lTom_rate', 'mTos_rate') ); 				
 	}
 
 }
