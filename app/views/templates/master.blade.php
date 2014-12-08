@@ -32,5 +32,6 @@
 
 
 <script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="{{ asset('assets/js/main.js') }}"></script>
 </body>
 </html>
